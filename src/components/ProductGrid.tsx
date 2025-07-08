@@ -100,15 +100,34 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     : products.filter(product => product.category === category);
 
   return (
-    <section className="py-16 bg-red-900 relative overflow-hidden">
+    <section className="py-16 bg-black relative overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
+        {/* Chain Link Fence Pattern */}
+        <div 
+          className="w-full h-full opacity-15"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.3'%3E%3Cpath d='M30 0l15 15-15 15-15-15L30 0zm0 30l15 15-15 15-15-15L30 30z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+            backgroundSize: '60px 60px'
+          }}
+        ></div>
+        
+        {/* Urban Street Background */}
         <img 
-          src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80" 
-          alt="Gangster Urban Background" 
-          className="w-full h-full object-cover opacity-20 blur-sm"
+          src="https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80" 
+          alt="Urban Street Background" 
+          className="w-full h-full object-cover opacity-10 blur-sm"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/90 to-black/80"></div>
+        
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/95 via-black/90 to-black/95"></div>
+        
+        {/* Additional Gangster Elements */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-10 left-10 w-32 h-32 border-2 border-red-600 rotate-45"></div>
+          <div className="absolute bottom-20 right-20 w-24 h-24 border-2 border-red-600 rotate-12"></div>
+          <div className="absolute top-1/2 left-1/4 w-16 h-16 border-2 border-red-600 -rotate-45"></div>
+        </div>
       </div>
       
       <div className="container mx-auto px-4">
@@ -130,6 +149,9 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
               className="group relative bg-gray-800/90 backdrop-blur-sm rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer border border-gray-700/50"
               onClick={() => onProductClick(product)}
             >
+              {/* Card Shadow Effect */}
+              <div className="absolute inset-0 bg-gradient-to-br from-red-900/10 to-transparent pointer-events-none"></div>
+              
               {product.isNew && (
                 <div className="absolute top-4 left-4 z-10 bg-red-600 text-white px-2 py-1 rounded-md text-sm font-bold">
                   NOVO
