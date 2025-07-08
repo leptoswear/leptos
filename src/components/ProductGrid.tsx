@@ -100,15 +100,15 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     : products.filter(product => product.category === category);
 
   return (
-    <section className="py-16 bg-gray-900 relative overflow-hidden">
+    <section className="py-16 bg-red-900 relative overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1514905552197-0610a4d8fd73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
-          alt="Urban Street Background" 
-          className="w-full h-full object-cover opacity-10 blur-sm"
+          src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80" 
+          alt="Gangster Urban Background" 
+          className="w-full h-full object-cover opacity-20 blur-sm"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/90 via-gray-900/95 to-gray-900/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/90 to-black/80"></div>
       </div>
       
       <div className="container mx-auto px-4">
