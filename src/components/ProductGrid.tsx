@@ -100,9 +100,19 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     : products.filter(product => product.category === category);
 
   return (
-    <section className="py-16 bg-gray-900">
+    <section className="py-16 bg-gray-900 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img 
+          src="https://images.unsplash.com/photo-1514905552197-0610a4d8fd73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+          alt="Urban Street Background" 
+          className="w-full h-full object-cover opacity-10 blur-sm"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900/90 via-gray-900/95 to-gray-900/90"></div>
+      </div>
+      
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 relative z-10">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
             <span style={{ fontFamily: '"Cinzel", "Pirata One", "Metal Mania", "Butcherman", serif', fontWeight: '900', textShadow: '3px 3px 6px rgba(0,0,0,0.9)' }}>
               {category === 'all' ? 'NOSSA COLEÇÃO' : 'CAMISETAS'}
@@ -113,11 +123,11 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
           {filteredProducts.map((product) => (
             <div 
               key={product.id} 
-              className="group relative bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
+              className="group relative bg-gray-800/90 backdrop-blur-sm rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer border border-gray-700/50"
               onClick={() => onProductClick(product)}
             >
               {product.isNew && (
