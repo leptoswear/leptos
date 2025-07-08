@@ -34,7 +34,7 @@ const Hero: React.FC<HeroProps> = ({ onShopClick }) => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Roupas oversized com a atitude das ruas de Ferraz City 
+            Roupas oversized com a atitude das ruas de Ferraz City - 
             <br className="hidden md:block" />
             Defina seu estilo com nossa coleção exclusiva.
           </p>
