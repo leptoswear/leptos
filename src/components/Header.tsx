@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ onLoginClick, onHomeClick, onShirtsClic
               onClick={onHomeClick}
             >
               <img 
-                src="/Imagem do WhatsApp de 2025-07-07 à(s) 16.28.03_c331474e.jpg" 
+                src="/leptoswear-logo.jpg" 
                 alt="Leptoswear Logo"
                 className="h-12 md:h-16 w-auto object-contain"
                 style={{ filter: 'brightness(1.1) contrast(1.2)' }}

@@ -14,7 +14,7 @@ const Footer: React.FC<FooterProps> = ({ onInfoClick }) => {
           <div className="space-y-4">
             <div className="flex items-center">
               <img 
-                src="/Imagem do WhatsApp de 2025-07-07 à(s) 16.28.03_c331474e.jpg" 
+                src="/leptoswear-logo.jpg" 
                 alt="Leptoswear Logo"
                 className="h-10 w-auto object-contain"
                 style={{ filter: 'brightness(1.1) contrast(1.2)' }}
