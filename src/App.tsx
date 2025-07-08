@@ -3,7 +3,6 @@ import { CartProvider } from './context/CartContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProductGrid from './components/ProductGrid';
-import VideoSection from './components/VideoSection';
 import LoginModal from './components/LoginModal';
 import ProductModal from './components/ProductModal';
 import CartModal from './components/CartModal';
@@ -50,7 +49,6 @@ function App() {
         {currentView === 'home' && (
           <>
             <Hero onShopClick={() => setCurrentView('camisetas')} />
-            <VideoSection />
             <ProductGrid 
               category="all" 
               onProductClick={handleProductClick}
