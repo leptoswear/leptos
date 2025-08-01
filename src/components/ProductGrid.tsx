@@ -665,13 +665,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
     {
-      id: 59,
-      name: "Camiseta Grizzly",
+      id: 60,
+      name: "Camiseta Givenchy",
       price: 99.90,
-      image: "https://i.postimg.cc/c13s0Jnh/Whats-App-Image-2025-08-01-at-3-08-08-PM.jpg",
+      image: "https://i.postimg.cc/YCrk6fyD/Whats-App-Image-2025-08-01-at-3-08-23-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preta'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
