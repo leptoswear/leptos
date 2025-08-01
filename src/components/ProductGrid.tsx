@@ -11,13 +11,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
   const products: Product[] = [
     {
       id: 1,
-      name: "Camiseta Oversized LA Street",
+      name: "Camiseta FUBU Clássica",
       price: 99.90,
       image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preto', 'Branco', 'Cinza'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
     },
     {
