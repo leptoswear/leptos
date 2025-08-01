@@ -242,7 +242,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       image: "https://i.postimg.cc/QxfPQxqr/Whats-App-Image-2025-08-01-at-3-05-36-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preta'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
