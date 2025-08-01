@@ -30,7 +30,7 @@ const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Preparar dados do pedido para enviar ao seu checkout personalizado
+    // Preparar dados do pedido para enviar via WhatsApp
     const orderData = {
       customer: checkoutData,
       items: cartItems,
@@ -39,28 +39,14 @@ const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose }) => {
       timestamp: new Date().toISOString()
     };
 
-    // Aqui você pode integrar com seu sistema de checkout
-    // Exemplo 1: Redirecionar para uma URL externa
-    // window.location.href = `https://seu-checkout.com/payment?data=${encodeURIComponent(JSON.stringify(orderData))}`;
-    
-    // Exemplo 2: Fazer uma chamada para sua API
-    // fetch('https://sua-api.com/create-payment', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify(orderData)
-    // }).then(response => response.json())
-    //   .then(data => {
-    //     window.location.href = data.paymentUrl;
-    //   });
-
-    // Exemplo 3: Integração com WhatsApp Business
+    // Integração com WhatsApp Business
     const whatsappMessage = generateWhatsAppMessage(orderData);
     const whatsappUrl = `https://wa.me/5511964522053?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
     
     clearCart();
     onClose();
-    alert('Redirecionando para finalizar o pagamento...');
+    alert('Redirecionando para o WhatsApp para finalizar seu pedido!');
   };
 
   const generateWhatsAppMessage = (orderData: any) => {
