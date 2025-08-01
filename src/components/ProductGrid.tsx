@@ -316,7 +316,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       id: 29,
       name: "Camiseta Scarface Trono Solitário",
       price: 99.90,
-      image: "https://i.postimg.cc/HnkNRV0H/Whats-App-Image-2025-08-01-at-3-05-41-PM-1.jpg",
+      image: "https://i.postimg.cc/kMYKWBHC/Whats-App-Image-2025-08-01-at-3-05-41-PM.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Preta'],
