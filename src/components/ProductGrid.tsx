@@ -12,8 +12,8 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     {
       id: 1,
       name: "Camiseta Oversized LA Street",
-      price: 89.90,
-      image: "https://dcdn-us.mitiendanube.com/stores/004/961/337/products/1-71a6e09d38dfce70e417437800359925-480-0.jpg",
+      price: 99.90,
+      image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Preto', 'Branco', 'Cinza'],
