@@ -116,13 +116,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Vermelho intenso que chama atenção. Oversized com atitude e personalidade única.'
     },
     {
-      id: 7,
-      name: "Camiseta Dark Soul",
-      price: 89.90,
-      image: "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7CA1oWTvhXVAL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY1000_.png",
+      id: 11,
+      name: "Camiseta Good Fellas Carro Rosa",
+      price: 99.90,
+      image: "https://i.postimg.cc/6qSVYSbt/Whats-App-Image-2025-08-01-at-3-05-27-PM.jpg",
       category: 'camiseta',
-      colors: ['Preto', 'Cinza Escuro', 'Roxo'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Para almas sombrias com estilo. Design gótico moderno com toque contemporâneo.'
     },
     {
