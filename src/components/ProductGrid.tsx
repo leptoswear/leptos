@@ -152,7 +152,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       id: 14,
       name: "Camiseta Sopranos Digital Crime",
       price: 99.90,
-      image: "https://i.postimg.cc/qRpzHL6n/Whats-App-Image-2025-08-01-at-3-05-29-PM.jpg",
+      image: "https://i.postimg.cc/Z53R9grp/Whats-App-Image-2025-08-01-at-3-05-29-PM-1.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Preta'],
