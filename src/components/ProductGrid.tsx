@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingCart, Heart, Eye } from 'lucide-react';
+import { ShoppingCart, Heart, Eye, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Product } from '../types/Product';
 
 interface ProductGridProps {
@@ -8,6 +8,9 @@ interface ProductGridProps {
 }
 
 const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) => {
+  const [currentPage, setCurrentPage] = React.useState(1);
+  const productsPerPage = 20;
+
   const products: Product[] = [
        
     {
@@ -714,6 +717,30 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     ? products 
     : products.filter(product => product.category === category);
 
+  // Calcular produtos da página atual
+  const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+  const startIndex = (currentPage - 1) * productsPerPage;
+  const endIndex = startIndex + productsPerPage;
+  const currentProducts = filteredProducts.slice(startIndex, endIndex);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    // Scroll para o topo da seção de produtos
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handlePrevPage = () => {
+    if (currentPage > 1) {
+      handlePageChange(currentPage - 1);
+    }
+  };
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      handlePageChange(currentPage + 1);
+    }
+  };
+
   return (
     <section 
       className="py-16 relative overflow-hidden"
@@ -755,10 +782,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
           <p className="text-gray-400 text-lg">
             Peças oversized com o estilo autêntico das ruas de FERRAZ CITY
           </p>
+          <p className="text-gray-500 text-sm mt-2">
+            Exibindo {startIndex + 1}-{Math.min(endIndex, filteredProducts.length)} de {filteredProducts.length} produtos
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProducts.map((product) => (
+          {currentProducts.map((product) => (
             <div 
               key={product.id} 
               className="group relative bg-gray-800/95 backdrop-blur-sm rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer border border-gray-700/30 shadow-2xl"
@@ -811,6 +841,72 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
             </div>
           ))}
         </div>
+
+        {/* Paginação */}
+        {totalPages > 1 && (
+          <div className="flex justify-center items-center mt-12 space-x-4">
+            <button
+              onClick={handlePrevPage}
+              disabled={currentPage === 1}
+              className={`flex items-center space-x-2 px-4 py-2 rounded-md transition-colors ${
+                currentPage === 1
+                  ? 'bg-gray-800 text-gray-500 cursor-not-allowed'
+                  : 'bg-gray-700 text-white hover:bg-gray-600'
+              }`}
+            >
+              <ChevronLeft size={20} />
+              <span>Anterior</span>
+            </button>
+
+            <div className="flex space-x-2">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                // Mostrar apenas algumas páginas ao redor da atual
+                if (
+                  page === 1 ||
+                  page === totalPages ||
+                  (page >= currentPage - 2 && page <= currentPage + 2)
+                ) {
+                  return (
+                    <button
+                      key={page}
+                      onClick={() => handlePageChange(page)}
+                      className={`px-3 py-2 rounded-md transition-colors ${
+                        currentPage === page
+                          ? 'bg-red-600 text-white'
+                          : 'bg-gray-700 text-white hover:bg-gray-600'
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  );
+                } else if (
+                  page === currentPage - 3 ||
+                  page === currentPage + 3
+                ) {
+                  return (
+                    <span key={page} className="px-3 py-2 text-gray-500">
+                      ...
+                    </span>
+                  );
+                }
+                return null;
+              })}
+            </div>
+
+            <button
+              onClick={handleNextPage}
+              disabled={currentPage === totalPages}
+              className={`flex items-center space-x-2 px-4 py-2 rounded-md transition-colors ${
+                currentPage === totalPages
+                  ? 'bg-gray-800 text-gray-500 cursor-not-allowed'
+                  : 'bg-gray-700 text-white hover:bg-gray-600'
+              }`}
+            >
+              <span>Próxima</span>
+              <ChevronRight size={20} />
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
