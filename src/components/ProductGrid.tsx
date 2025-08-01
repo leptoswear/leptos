@@ -126,14 +126,14 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Para almas sombrias com estilo. Design gótico moderno com toque contemporâneo.'
     },
     {
-      id: 8,
-      name: "Camiseta Rebel Spirit",
-      price: 92.90,
-      image: "https://ae01.alicdn.com/kf/Sc161ed77982c4171bc81cda79c99ba95q.jpg",
+      id: 12,
+      name: "Camiseta Good Fellas Carro Rosa ll",
+      price: 99.90,
+      image: "https://i.postimg.cc/j5nkKHVx/Whats-App-Image-2025-08-01-at-3-05-28-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preto', 'Branco', 'Vermelho'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Preta'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     }
   ];
