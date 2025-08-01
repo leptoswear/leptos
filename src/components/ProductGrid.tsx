@@ -610,13 +610,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
     {
-      id: 30,
-      name: "Camiseta GodFather Al Pacino",
+      id: 55,
+      name: "Camiseta Esqueleto Fuck You",
       price: 99.90,
-      image: "https://i.postimg.cc/QxVPqKxJ/Whats-App-Image-2025-08-01-at-3-05-42-PM.jpg",
+      image: "https://i.postimg.cc/ydtYngSg/Whats-App-Image-2025-08-01-at-3-06-21-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Branca'],
+      colors: ['Preta'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
