@@ -449,7 +449,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     },
     {
       id: 41,
-      name: "Camiseta Presidencial",
+      name: "Camiseta 2PAC Presidencial",
       price: 99.90,
       image: "https://i.postimg.cc/ZR16Gqy2/Whats-App-Image-2025-08-01-at-3-05-52-PM.jpg",
       category: 'camiseta',
