@@ -335,10 +335,10 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
     {
-      id: 30,
-      name: "Camiseta GodFather Al Pacino",
+      id: 31,
+      name: "Camiseta Pablo Escobar Coca-Cola",
       price: 99.90,
-      image: "https://i.postimg.cc/QxVPqKxJ/Whats-App-Image-2025-08-01-at-3-05-42-PM.jpg",
+      image: "https://i.postimg.cc/c1mHq2WL/Whats-App-Image-2025-08-01-at-3-05-43-PM.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Branca'],
