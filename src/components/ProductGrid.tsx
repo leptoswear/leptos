@@ -42,6 +42,38 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
     },
     {
+      id: 1,
+      name: "Camiseta FUBU Clássica",
+      price: 99.90,
+      image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
+    },
+    {
+      id: 1,
+      name: "Camiseta FUBU Clássica",
+      price: 99.90,
+      image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
+    },
+    {
+      id: 2,
+      name: "Camiseta Gangster Black",
+      price: 79.90,
+      image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lznuuwomwr41ee",
+      category: 'camiseta',
+      colors: ['Preto', 'Vermelho', 'Branco'],
+      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
+    },
+    {
       id: 3,
       name: "Camiseta Urban Ferraz",
       price: 94.90,
