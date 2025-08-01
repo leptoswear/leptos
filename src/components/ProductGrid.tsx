@@ -303,12 +303,12 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     },
     {
       id: 28,
-      name: "Camiseta Good Fellas Carro Rosa ll",
+      name: "Camiseta Scarface Trono",
       price: 99.90,
-      image: "https://i.postimg.cc/j5nkKHVx/Whats-App-Image-2025-08-01-at-3-05-28-PM.jpg",
+      image: "https://i.postimg.cc/kMYKWBHC/Whats-App-Image-2025-08-01-at-3-05-41-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preta'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
