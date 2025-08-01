@@ -191,6 +191,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       sizes: ['M', 'G', 'GG'],
       description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
     },
+      
   ];
 
   const filteredProducts = category === 'all' 
