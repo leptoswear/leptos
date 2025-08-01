@@ -21,13 +21,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
     },
     {
-      id: 1,
-      name: "Camiseta FUBU Clássica",
+      id: 2,
+      name: "Camiseta SIDESHOW BOB",
       price: 99.90,
-      image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
+      image: "https://i.postimg.cc/NMBgSj2j/Whats-App-Image-2025-08-01-at-3-05-19-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Branco'],
+      colors: ['Preto'],
       sizes: ['M', 'G', 'GG'],
       description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
     },
