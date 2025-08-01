@@ -85,13 +85,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Inspirada nas ruas de Ferraz City. Design único com elementos urbanos autênticos.'
     },
     {
-      id: 4,
-      name: "Camiseta LA Vibes",
-      price: 94.90,
-      image: "https://uzistore.com.br/cdn/shop/files/camisa-hype-trap-gangster-ultra-larga_2-min.jpg?v=1737124336",
+      id: 8,
+      name: "Camiseta Los Pollos",
+      price: 99.90,
+      image: "https://i.postimg.cc/MZyWxRmK/Whats-App-Image-2025-08-01-at-3-05-24-PM.jpg",
       category: 'camiseta',
-      colors: ['Branco', 'Preto', 'Azul Marinho'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Preto'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Vibe californiana com toque brasileiro. Conforto e estilo em uma peça única.'
     },
     {
