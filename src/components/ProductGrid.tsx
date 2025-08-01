@@ -272,7 +272,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       id: 25,
       name: "Camiseta GodFather Cavalo 50 anos",
       price: 99.90,
-      image: "https://i.postimg.cc/zf31b2H8/Whats-App-Image-2025-08-01-at-3-05-39-PM.jpg",
+      image: "https://i.postimg.cc/jqnPQsYJ/Whats-App-Image-2025-08-01-at-3-05-38-PM.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Branca'],
