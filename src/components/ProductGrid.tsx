@@ -42,10 +42,10 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
     },
     {
-      id: 1,
-      name: "Camiseta FUBU Clássica",
+      id: 4,
+      name: "Camiseta Cat & Dog Guns",
       price: 99.90,
-      image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
+      image: "https://i.postimg.cc/2yd9JCvr/Whats-App-Image-2025-08-01-at-3-05-20-PM.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Branco'],
