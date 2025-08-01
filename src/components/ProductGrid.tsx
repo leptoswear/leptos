@@ -250,7 +250,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       id: 23,
       name: "Camiseta GodFather - O padrinho",
       price: 99.90,
-      image: "https://i.postimg.cc/QxfPQxqr/Whats-App-Image-2025-08-01-at-3-05-36-PM.jpg",
+      image: "https://i.postimg.cc/LXMNKnpw/Whats-App-Image-2025-08-01-at-3-05-36-PM-2.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Branca'],
