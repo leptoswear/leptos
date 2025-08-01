@@ -74,14 +74,14 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
     },
     {
-      id: 3,
-      name: "Camiseta Urban Ferraz",
-      price: 94.90,
-      image: "https://www.tsetecustom.com/cdn/shop/files/Camiseta_B_sica_Unissex_Fake_Mafia_Night-2197-4b34-b2d7-652171be0947.jpg?v=1724173150",
+      id: 7,
+      name: "Camiseta Good Fellas Red Sky",
+      price: 99.90,
+      image: "https://i.postimg.cc/TY63WQ3D/Whats-App-Image-2025-08-01-at-3-05-23-PM-1.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preto', 'Cinza', 'Verde Militar'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Inspirada nas ruas de Ferraz City. Design único com elementos urbanos autênticos.'
     },
     {
