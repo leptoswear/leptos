@@ -676,6 +676,28 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
     {
+      id: 61,
+      name: "Camiseta Eazy-e Comptom",
+      price: 99.90,
+      image: "https://i.postimg.cc/R0qB8Cmc/Whats-App-Image-2025-08-01-at-3-08-46-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
+      id: 60,
+      name: "Camiseta Givenchy",
+      price: 99.90,
+      image: "https://i.postimg.cc/YCrk6fyD/Whats-App-Image-2025-08-01-at-3-08-23-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
       id: 60,
       name: "Camiseta Givenchy",
       price: 99.90,
