@@ -106,13 +106,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Para os reis da rua. Design premium com detalhes exclusivos que fazem a diferença.'
     },
     {
-      id: 6,
-      name: "Camiseta Oversized Red",
-      price: 84.90,
-      image: "https://down-br.img.susercontent.com/file/sg-11134201-7rcdg-lthbl614ecyk7b",
+      id: 10,
+      name: "Camiseta Good Fellas Killers Red",
+      price: 99.90,
+      image: "https://i.postimg.cc/9XxLDgpx/Whats-App-Image-2025-08-01-at-3-05-26-PM.jpg",
       category: 'camiseta',
-      colors: ['Vermelho', 'Preto', 'Branco'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Vermelho intenso que chama atenção. Oversized com atitude e personalidade única.'
     },
     {
