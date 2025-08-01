@@ -620,6 +620,50 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
+    {
+      id: 30,
+      name: "Camiseta GodFather Al Pacino",
+      price: 99.90,
+      image: "https://i.postimg.cc/QxVPqKxJ/Whats-App-Image-2025-08-01-at-3-05-42-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
+      id: 30,
+      name: "Camiseta GodFather Al Pacino",
+      price: 99.90,
+      image: "https://i.postimg.cc/QxVPqKxJ/Whats-App-Image-2025-08-01-at-3-05-42-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
+      id: 30,
+      name: "Camiseta GodFather Al Pacino",
+      price: 99.90,
+      image: "https://i.postimg.cc/QxVPqKxJ/Whats-App-Image-2025-08-01-at-3-05-42-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
+      id: 30,
+      name: "Camiseta GodFather Al Pacino",
+      price: 99.90,
+      image: "https://i.postimg.cc/QxVPqKxJ/Whats-App-Image-2025-08-01-at-3-05-42-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
   ];
 
   const filteredProducts = category === 'all' 
