@@ -297,7 +297,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       image: "https://i.postimg.cc/7hnRQSJK/Whats-App-Image-2025-08-01-at-3-05-40-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preta'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
@@ -319,18 +319,18 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       image: "https://i.postimg.cc/kMYKWBHC/Whats-App-Image-2025-08-01-at-3-05-41-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preta'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
     {
-      id: 12,
-      name: "Camiseta Good Fellas Carro Rosa ll",
+      id: 30,
+      name: "Camiseta GodFather Al Pacino",
       price: 99.90,
-      image: "https://i.postimg.cc/j5nkKHVx/Whats-App-Image-2025-08-01-at-3-05-28-PM.jpg",
+      image: "https://i.postimg.cc/QxVPqKxJ/Whats-App-Image-2025-08-01-at-3-05-42-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preta'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
