@@ -32,13 +32,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
     },
     {
-      id: 2,
-      name: "Camiseta Gangster Black",
-      price: 79.90,
-      image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lznuuwomwr41ee",
+      id: 3,
+      name: "Camiseta Cat & Dog Simpsons",
+      price: 99.90,
+      image: "https://i.postimg.cc/2yd9JCvr/Whats-App-Image-2025-08-01-at-3-05-20-PM.jpg",
       category: 'camiseta',
-      colors: ['Preto', 'Vermelho', 'Branco'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
     },
     {
