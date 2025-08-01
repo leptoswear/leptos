@@ -217,7 +217,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       id: 20,
       name: "Camiseta Good Fellas Capa de Jornal",
       price: 99.90,
-      image: "https://i.postimg.cc/LXZR7gNf/Whats-App-Image-2025-08-01-at-3-05-33-PM.jpg",
+      image: "https://i.postimg.cc/90hPSSGh/Whats-App-Image-2025-08-01-at-3-05-34-PM-2.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Preta'],
