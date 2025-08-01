@@ -90,19 +90,19 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       price: 99.90,
       image: "https://i.postimg.cc/MZyWxRmK/Whats-App-Image-2025-08-01-at-3-05-24-PM.jpg",
       category: 'camiseta',
-      colors: ['Preto'],
+      colors: ['Preta'],
       sizes: ['M', 'G', 'GG'],
       description: 'Vibe californiana com toque brasileiro. Conforto e estilo em uma peça única.'
     },
     {
-      id: 5,
-      name: "Camiseta Street King",
+      id: 9,
+      name: "Camiseta Pink & Cérebro Breaking Bad",
       price: 99.90,
-      image: "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m0nbc9magyhs26",
+      image: "https://i.postimg.cc/g06CsFMk/Whats-App-Image-2025-08-01-at-3-05-25-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Preto', 'Dourado', 'Prata'],
-      sizes: ['P', 'M', 'G', 'GG', 'G3'],
+      colors: ['Preta'],
+      sizes: ['M', 'G', 'GG'],
       description: 'Para os reis da rua. Design premium com detalhes exclusivos que fazem a diferença.'
     },
     {
