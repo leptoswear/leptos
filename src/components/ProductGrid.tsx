@@ -17,7 +17,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
     },
@@ -38,7 +38,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       price: 99.90,
       image: "https://i.postimg.cc/2yd9JCvr/Whats-App-Image-2025-08-01-at-3-05-20-PM.jpg",
       category: 'camiseta',
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
     },
@@ -49,7 +49,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       image: "https://i.postimg.cc/tT3zR2gz/Whats-App-Image-2025-08-01-at-3-05-20-PM-1.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
     },
@@ -70,7 +70,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       price: 99.90,
       image: "https://i.postimg.cc/t49J8D0j/Whats-App-Image-2025-08-01-at-3-05-23-PM.jpg",
       category: 'camiseta',
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
     },
@@ -81,7 +81,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       image: "https://i.postimg.cc/TY63WQ3D/Whats-App-Image-2025-08-01-at-3-05-23-PM-1.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Inspirada nas ruas de Ferraz City. Design único com elementos urbanos autênticos.'
     },
@@ -112,7 +112,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       price: 99.90,
       image: "https://i.postimg.cc/9XxLDgpx/Whats-App-Image-2025-08-01-at-3-05-26-PM.jpg",
       category: 'camiseta',
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Vermelho intenso que chama atenção. Oversized com atitude e personalidade única.'
     },
@@ -122,7 +122,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       price: 99.90,
       image: "https://i.postimg.cc/6qSVYSbt/Whats-App-Image-2025-08-01-at-3-05-27-PM.jpg",
       category: 'camiseta',
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Para almas sombrias com estilo. Design gótico moderno com toque contemporâneo.'
     },
@@ -166,7 +166,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       image: "https://i.postimg.cc/yxbd9CQX/Whats-App-Image-2025-08-01-at-3-05-30-PM.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Branco'],
+      colors: ['Branca'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },{
