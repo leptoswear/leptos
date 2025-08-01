@@ -9,6 +9,134 @@ interface ProductGridProps {
 
 const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) => {
   const products: Product[] = [
+   {
+      id: 1,
+      name: "Camiseta FUBU Clássica",
+      price: 99.90,
+      image: "https://i.postimg.cc/br4kqVMm/Whats-App-Image-2025-07-31-at-1-45-40-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
+    },
+    {
+      id: 2,
+      name: "Camiseta SIDESHOW BOB",
+      price: 99.90,
+      image: "https://i.postimg.cc/NMBgSj2j/Whats-App-Image-2025-08-01-at-3-05-19-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Preta'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
+    },
+    {
+      id: 3,
+      name: "Camiseta Cat & Dog Simpsons",
+      price: 99.90,
+      image: "https://i.postimg.cc/2yd9JCvr/Whats-App-Image-2025-08-01-at-3-05-20-PM.jpg",
+      category: 'camiseta',
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
+    },
+    {
+      id: 4,
+      name: "Camiseta Cat & Dog Guns",
+      price: 99.90,
+      image: "https://i.postimg.cc/tT3zR2gz/Whats-App-Image-2025-08-01-at-3-05-20-PM-1.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
+    },
+    {
+      id: 5,
+      name: "Camiseta El Chavo 8",
+      price: 99.90,
+      image: "https://i.postimg.cc/9FrqJLjN/Whats-App-Image-2025-08-01-at-3-05-22-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Preta'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Camiseta oversized com estilo urbano autêntico das ruas de LA. Tecido premium com caimento perfeito.'
+    },
+    {
+      id: 6,
+      name: "Camiseta Death Row",
+      price: 99.90,
+      image: "https://i.postimg.cc/t49J8D0j/Whats-App-Image-2025-08-01-at-3-05-23-PM.jpg",
+      category: 'camiseta',
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Design exclusivo com atitude gangster. Perfeita para quem quer se destacar com estilo.'
+    },
+    {
+      id: 7,
+      name: "Camiseta Good Fellas Red Sky",
+      price: 99.90,
+      image: "https://i.postimg.cc/TY63WQ3D/Whats-App-Image-2025-08-01-at-3-05-23-PM-1.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Inspirada nas ruas de Ferraz City. Design único com elementos urbanos autênticos.'
+    },
+    {
+      id: 8,
+      name: "Camiseta Los Pollos",
+      price: 99.90,
+      image: "https://i.postimg.cc/MZyWxRmK/Whats-App-Image-2025-08-01-at-3-05-24-PM.jpg",
+      category: 'camiseta',
+      colors: ['Preta'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Vibe californiana com toque brasileiro. Conforto e estilo em uma peça única.'
+    },
+    {
+      id: 9,
+      name: "Camiseta Pink & Cérebro Breaking Bad",
+      price: 99.90,
+      image: "https://i.postimg.cc/g06CsFMk/Whats-App-Image-2025-08-01-at-3-05-25-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Preta'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Para os reis da rua. Design premium com detalhes exclusivos que fazem a diferença.'
+    },
+    {
+      id: 10,
+      name: "Camiseta Good Fellas Killers Red",
+      price: 99.90,
+      image: "https://i.postimg.cc/9XxLDgpx/Whats-App-Image-2025-08-01-at-3-05-26-PM.jpg",
+      category: 'camiseta',
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Vermelho intenso que chama atenção. Oversized com atitude e personalidade única.'
+    },
+    {
+      id: 11,
+      name: "Camiseta Good Fellas Carro Rosa",
+      price: 99.90,
+      image: "https://i.postimg.cc/6qSVYSbt/Whats-App-Image-2025-08-01-at-3-05-27-PM.jpg",
+      category: 'camiseta',
+      colors: ['Branco'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Para almas sombrias com estilo. Design gótico moderno com toque contemporâneo.'
+    },
+    {
+      id: 12,
+      name: "Camiseta Good Fellas Carro Rosa ll",
+      price: 99.90,
+      image: "https://i.postimg.cc/j5nkKHVx/Whats-App-Image-2025-08-01-at-3-05-28-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Preta'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    }
+    
     {
       id: 1,
       name: "Camiseta FUBU Clássica",
