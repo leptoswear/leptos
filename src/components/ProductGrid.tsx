@@ -45,7 +45,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       id: 4,
       name: "Camiseta Cat & Dog Guns",
       price: 99.90,
-      image: "https://i.postimg.cc/2yd9JCvr/Whats-App-Image-2025-08-01-at-3-05-20-PM.jpg",
+      image: "https://i.postimg.cc/tT3zR2gz/Whats-App-Image-2025-08-01-at-3-05-20-PM-1.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Branco'],
