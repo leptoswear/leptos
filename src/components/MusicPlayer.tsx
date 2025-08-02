@@ -12,19 +12,19 @@ const MusicPlayer: React.FC = () => {
   // Lista de músicas (usando URLs do YouTube convertidas ou outras fontes)
   const playlist = [
     {
-      title: "Full Clip",
-      artist: "Gang Starr",
-      url: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+      title: "Gangster Beat 1",
+      artist: "Hip Hop Instrumental",
+      url: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" // Substitua por arquivo MP3 real
     },
     {
-      title: "Still D.R.E.",
-      artist: "Dr. Dre",
-      url: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav"
+      title: "Street Vibes",
+      artist: "Urban Beat",
+      url: "https://www.soundjay.com/misc/sounds/fail-buzzer-02.wav" // Substitua por arquivo MP3 real
     },
     {
-      title: "Straight Outta Compton",
-      artist: "N.W.A",
-      url: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav"
+      title: "Trap Anthem",
+      artist: "Bass Heavy",
+      url: "https://www.soundjay.com/misc/sounds/magic-chime-02.wav" // Substitua por arquivo MP3 real
     }
   ];
 
