@@ -14,7 +14,7 @@ const MusicPlayer: React.FC = () => {
     {
       title: "Gangster Paradise",
       artist: "Coolio",
-      url: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" // Substitua por URLs reais
+      url: "https://www.youtube.com/watch?v=oTB64AuSIYk&list=RDoTB64AuSIYk&start_radio=1" // Substitua por URLs reais
     },
     {
       title: "Still D.R.E.",
