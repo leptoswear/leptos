@@ -9,7 +9,6 @@ import CartModal from './components/CartModal';
 import CheckoutModal from './components/CheckoutModal';
 import InfoModal from './components/InfoModal';
 import Footer from './components/Footer';
-import MusicPlayer from './components/MusicPlayer';
 import { Product } from './types/Product';
 
 type ViewType = 'home' | 'camisetas';
@@ -95,8 +94,6 @@ function App() {
           onClose={() => setInfoModalPage(null)}
           page={infoModalPage}
         />
-        
-        <MusicPlayer />
       </div>
     </CartProvider>
   );
