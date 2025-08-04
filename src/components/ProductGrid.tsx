@@ -9,7 +9,7 @@ interface ProductGridProps {
 
 const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) => {
   const [currentPage, setCurrentPage] = React.useState(1);
-  const productsPerPage = 20;
+  const productsPerPage = 21;
 
   const products: Product[] = [
        
