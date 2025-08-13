@@ -768,10 +768,10 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
     {
-      id: 66,
-      name: "Camiseta Putin X Jinping ",
+      id: 68,
+      name: "Camiseta Lowrider",
       price: 99.90,
-      image: "https://i.postimg.cc/cH860WjL/Whats-App-Image-2025-08-13-at-11-36-21-AM.jpg",
+      image: "https://i.postimg.cc/mDSJczKX/Whats-App-Image-2025-08-13-at-11-36-22-AM.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Branca'],
