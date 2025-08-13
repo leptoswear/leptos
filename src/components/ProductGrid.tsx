@@ -700,6 +700,51 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
+    
+    {
+      id: 62,
+      name: "Camiseta Pink Panther ",
+      price: 99.90,
+      image: "https://i.postimg.cc/rs22KSrJ/Whats-App-Image-2025-08-01-at-3-09-15-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
+      id: 62,
+      name: "Camiseta Pink Panther ",
+      price: 99.90,
+      image: "https://i.postimg.cc/rs22KSrJ/Whats-App-Image-2025-08-01-at-3-09-15-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
+      id: 62,
+      name: "Camiseta Pink Panther ",
+      price: 99.90,
+      image: "https://i.postimg.cc/rs22KSrJ/Whats-App-Image-2025-08-01-at-3-09-15-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
+    {
+      id: 62,
+      name: "Camiseta Pink Panther ",
+      price: 99.90,
+      image: "https://i.postimg.cc/rs22KSrJ/Whats-App-Image-2025-08-01-at-3-09-15-PM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
     {
       id: 62,
       name: "Camiseta Pink Panther ",
