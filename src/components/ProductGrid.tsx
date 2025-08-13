@@ -713,10 +713,10 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
     {
-      id: 62,
-      name: "Camiseta Pink Panther ",
+      id: 63,
+      name: "Camiseta Sideshow Bob Killer ",
       price: 99.90,
-      image: "https://i.postimg.cc/rs22KSrJ/Whats-App-Image-2025-08-01-at-3-09-15-PM.jpg",
+      image: "https://i.postimg.cc/85qJ6cWv/Whats-App-Image-2025-08-13-at-11-36-19-AM.jpg",
       category: 'camiseta',
       isNew: true,
       colors: ['Branca'],
