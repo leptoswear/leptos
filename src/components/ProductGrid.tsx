@@ -747,7 +747,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
     },
     {
       id: 66,
-      name: "Camiseta Putin X Jinping ",
+      name: "Camiseta Putin X Kim ",
       price: 99.90,
       image: "https://i.postimg.cc/cH860WjL/Whats-App-Image-2025-08-13-at-11-36-21-AM.jpg",
       category: 'camiseta',
