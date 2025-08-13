@@ -760,10 +760,10 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       id: 67,
       name: "Camiseta Freira Fuck You ll ",
       price: 99.90,
-      image: "https://i.postimg.cc/cH860WjL/Whats-App-Image-2025-08-13-at-11-36-21-AM.jpg",
+      image: "https://i.postimg.cc/8zqqxVhH/Whats-App-Image-2025-08-13-at-11-36-21-AM-1.jpg",
       category: 'camiseta',
       isNew: true,
-      colors: ['Branca'],
+      colors: ['Preta'],
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
