@@ -778,6 +778,17 @@ const ProductGrid: React.FC<ProductGridProps> = ({ category, onProductClick }) =
       sizes: ['M', 'G', 'GG'],
       description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
     },
+    {
+      id: 69,
+      name: "Camiseta El Chapo Versace",
+      price: 99.90,
+      image: "https://i.postimg.cc/9f5nJYhg/Whats-App-Image-2025-08-13-at-11-36-23-AM.jpg",
+      category: 'camiseta',
+      isNew: true,
+      colors: ['Branca'],
+      sizes: ['M', 'G', 'GG'],
+      description: 'Espírito rebelde em cada fio. Para quem não segue regras e cria seu próprio estilo.'
+    },
   ];
 
   const filteredProducts = category === 'all' 
